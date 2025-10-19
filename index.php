@@ -150,7 +150,7 @@
 				<div class="image-column col-lg-5 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<figure class="image titlt" data-tilt data-tilt-max="4">
-							<img src="images/main-slider/image-1.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/main-slider/image-1.png" alt="">
 						</figure>
 					</div>
 				</div>
@@ -167,10 +167,10 @@
 		</div>
 		
 		<!-- Journey Box -->
-		<div class="journey-box" style="background-image: url(images/background/pattern-2.png)">
+		<div class="journey-box" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/pattern-2.png)">
 			<h2>Start your journey <br> today.</h2>
 			<div class="text">We help to create brands and products for today and tomorrow</div>
-			<a href="#" class="theme-btn go-btn">Go <span class="arrow"><img src="images/icons/right-arrow.png" alt="" /></span></a>
+			<a href="#" class="theme-btn go-btn">Go <span class="arrow"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/right-arrow.png" alt="" /></span></a>
 		</div>
 		
 	</section>
@@ -254,10 +254,10 @@
 				<!-- Images Column -->
 				<div class="images-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<div class="image"><img src="images/resource/brand-1.jpg" alt="" /></div>
-						<div class="image-two"><img src="images/resource/brand-2.jpg" alt="" /></div>
-						<div class="image-three"><img src="images/resource/brand-3.jpg" alt="" /></div>
-						<div class="image-four"><img src="images/resource/brand-4.jpg" alt="" /></div>
+						<div class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/brand-1.jpg" alt="" /></div>
+						<div class="image-two"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/brand-2.jpg" alt="" /></div>
+						<div class="image-three"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/brand-3.jpg" alt="" /></div>
+						<div class="image-four"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/brand-4.jpg" alt="" /></div>
 					</div>
 				</div>
 				
@@ -270,7 +270,7 @@
 	<div class="video-section">
 		<div class="auto-container">
 			<!-- Video Box -->
-			<div class="intro-video" style="background-image: url(images/background/2.jpg)">
+			<div class="intro-video" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/2.jpg)">
 				<h2>Everything You Need to Sell Online in One Platform</h2>
 				<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image intro-video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
 			</div>
@@ -286,9 +286,9 @@
 				<!-- Image Column -->
 				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="pattern-layer" style="background-image: url(images/background/pattern-3.png)"></div>
+						<div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/pattern-3.png)"></div>
 						<div class="image titlt" data-tilt data-tilt-max="4">
-							<img src="images/resource/business.png" alt="" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/business.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -308,7 +308,7 @@
 							<div class="business-block">
 								<div class="inner-box">
 									<div class="upper-box">
-										<div class="icon"><img src="images/icons/business-1.png" alt="" /></div>
+										<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/business-1.png" alt="" /></div>
 										<h5>Note that Important Stuff</h5>
 									</div>
 									<div class="text">Access Google’s unique insights and machine learning capabilities to help get the most out of your data.</div>
@@ -319,7 +319,7 @@
 							<div class="business-block">
 								<div class="inner-box">
 									<div class="upper-box">
-										<div class="icon"><img src="images/icons/business-2.png" alt="" /></div>
+										<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/business-2.png" alt="" /></div>
 										<h5>Manage Users with Life State</h5>
 									</div>
 									<div class="text">Access Google’s unique insights and machine learning capabilities to help get the most out of your data.</div>
@@ -330,7 +330,7 @@
 							<div class="business-block">
 								<div class="inner-box">
 									<div class="upper-box">
-										<div class="icon"><img src="images/icons/business-3.png" alt="" /></div>
+										<div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/business-3.png" alt="" /></div>
 										<h5>Assign tasks & track progress</h5>
 									</div>
 									<div class="text">Access Google’s unique insights and machine learning capabilities to help get the most out of your data.</div>
@@ -349,8 +349,8 @@
 	
 	<!-- Strategy Section -->
 	<section class="strategy-section">
-		<div class="icon-one" style="background-image: url(images/icons/strategy-icons.png)"></div>
-		<div class="pattern-one" style="background-image: url(images/background/pattern-4.png)"></div>
+		<div class="icon-one" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/icons/strategy-icons.png)"></div>
+		<div class="pattern-one" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/pattern-4.png)"></div>
 		<div class="auto-container">
 			<div class="row clearfix">
 				
@@ -369,10 +369,10 @@
 				
 				<!-- Images Column -->
 				<div class="images-column col-lg-6 col-md-12 col-sm-12">
-					<div class="pattern-two" style="background-image: url(images/background/pattern-5.png)"></div>
+					<div class="pattern-two" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/pattern-5.png)"></div>
 					<div class="inner-column">
-						<div class="image"><img src="images/resource/strategy-1.jpg" alt="" /></div>
-						<div class="image-two"><img src="images/resource/strategy-2.jpg" alt="" /></div>
+						<div class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/strategy-1.jpg" alt="" /></div>
+						<div class="image-two"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/strategy-2.jpg" alt="" /></div>
 					</div>
 				</div>
 				
@@ -389,7 +389,7 @@
 				<!-- Title Column -->
 				<div class="title-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<div class="pattern-one" style="background-image: url(images/background/pattern-6.png)"></div>
+						<div class="pattern-one" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/pattern-6.png)"></div>
 						<!-- Sec Title -->
 						<div class="sec-title">
 							<div class="title">Stay on top of everything</div>
@@ -471,7 +471,7 @@
 									</div>
 									<div class="lower-box">
 										<div class="author-image">
-											<img src="images/resource/author-1.jpg" alt="" />
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/author-1.jpg" alt="" />
 										</div>
 										<h6>Mahfuz Riad</h6>
 										<div class="designation">Ui Designer & Lead Staff</div>
@@ -487,7 +487,7 @@
 									</div>
 									<div class="lower-box">
 										<div class="author-image">
-											<img src="images/resource/author-1.jpg" alt="" />
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/author-1.jpg" alt="" />
 										</div>
 										<h6>Mahfuz Riad</h6>
 										<div class="designation">Ui Designer & Lead Staff</div>
@@ -503,7 +503,7 @@
 									</div>
 									<div class="lower-box">
 										<div class="author-image">
-											<img src="images/resource/author-1.jpg" alt="" />
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/author-1.jpg" alt="" />
 										</div>
 										<h6>Mahfuz Riad</h6>
 										<div class="designation">Ui Designer & Lead Staff</div>
@@ -519,7 +519,7 @@
 									</div>
 									<div class="lower-box">
 										<div class="author-image">
-											<img src="images/resource/author-1.jpg" alt="" />
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/author-1.jpg" alt="" />
 										</div>
 										<h6>Mahfuz Riad</h6>
 										<div class="designation">Ui Designer & Lead Staff</div>
@@ -538,7 +538,7 @@
 				<div class="image-column col-lg-4 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<div class="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<img src="images/resource/testimonial.jpg" alt="" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/testimonial.jpg" alt="" />
 						</div>
 					</div>
 				</div>
@@ -562,13 +562,13 @@
 				<div class="news-block col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a href="news-detail.html"><img src="images/resource/news-1.jpg" alt="" /></a>
+							<a href="news-detail.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/news-1.jpg" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="post-date">by Mahfuz Riad ,  on August 25, 2020</div>
 							<h5><a href="news-detail.html">Businesses Will Buy Down Risk With Defense</a></h5>
 							<div class="text">We proudly announce a new management structure with several new appointments...</div>
-							<a href="news-detail.html" class="more">More <span class="arrow"><img src="images/icons/right-arrow.png" alt="" /></span></a>
+							<a href="news-detail.html" class="more">More <span class="arrow"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/right-arrow.png" alt="" /></span></a>
 						</div>
 					</div>
 				</div>
@@ -577,13 +577,13 @@
 				<div class="news-block col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a href="news-detail.html"><img src="images/resource/news-2.jpg" alt="" /></a>
+							<a href="news-detail.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/news-2.jpg" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="post-date">by Mahfuz Riad ,  on August 25, 2020</div>
 							<h5><a href="news-detail.html">Brian Mansfield joins StormBrands as Non-exec.</a></h5>
 							<div class="text">The appointment will provide valuable knowledge and experience to support the leadership team in growing the agencies...</div>
-							<a href="news-detail.html" class="more">More <span class="arrow"><img src="images/icons/right-arrow.png" alt="" /></span></a>
+							<a href="news-detail.html" class="more">More <span class="arrow"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/right-arrow.png" alt="" /></span></a>
 						</div>
 					</div>
 				</div>
@@ -600,14 +600,14 @@
 				<div class="sponsors-outer">
 					<!-- Sponsors Carousel -->
 					<ul class="sponsors-carousel owl-carousel owl-theme">
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/1.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/2.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/3.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/4.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/5.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/1.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/2.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/3.png" alt=""></a></figure></li>
 					</ul>
 				</div>
             </div>
@@ -618,7 +618,7 @@
 	<!-- Main Footer -->
     <footer class="main-footer">
 		<div class="pattern-layer"></div>
-		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-10.png)"></div>
+		<div class="pattern-layer-two" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/pattern-10.png)"></div>
 		<div class="auto-container">
 			<div class="text">Subscribe to our newsletter and be notified when launch! ( only once a week  )</div>
 			<!-- Newsletter Form -->
@@ -647,7 +647,7 @@
 				</div>
 				<div class="clearfix">
 					<div class="pull-left">
-						<div class="logo"><a href="index.html"><img src="images/footer-logo.png" alt="" /></a></div>
+						<div class="logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png" alt="" /></a></div>
 					</div>
 					<div class="pull-right">
 						<a class="email" href="mailto:info_site@gmail.com">info_site@gmail.com</a>
@@ -677,8 +677,8 @@
 <script src="js/owl.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/knob.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/script.js"></script> -->
+<script src="js/jquery-ui.js"></script> -->
+<script src="js/script.js"></script> 
 
 
 <?php include get_template_directory() . '/footer.php';?>
