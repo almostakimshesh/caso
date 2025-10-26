@@ -158,7 +158,9 @@
 				<div class="content-column col-lg-7 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<div class="big-text">coso</div>
-						<h1>Increase Your <br> Brand Recognition <br> Today</h1>
+						<h1 class="hero-title">
+							<?php echo wp_kses_post( get_theme_mod('hero_title', 'Increase Your<br>Brand Recognition<br>Today') ); ?>
+						</h1>
 						<a href="#" class="theme-btn btn-style-two"><span class="txt">Creative brnading</span></a>
 					</div>
 				</div>
