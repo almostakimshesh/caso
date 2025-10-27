@@ -678,7 +678,7 @@
 <script src="js/wow.js"></script>
 <script src="js/knob.js"></script>
 <script src="js/jquery-ui.js"></script> -->
-<script src="js/script.js"></script> 
+<!-- <script src="js/script.js"></script>  -->
 
 
 <?php include get_template_directory() . '/footer.php';?>

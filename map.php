@@ -22,22 +22,73 @@
   </style>
 </head>
 <body>
-  <div id="map"></div>
+<div id="map"></div>
 
-  <script>
-    // Initialize map centered on Dhaka
-    var map = L.map('map').setView([24.8510, 89.3711], 13);
+<script>
+// Initialize map centered on Dhaka
+var map = L.map('map').setView([23.8103, 90.4125], 13);
 
-    // Load OpenStreetMap tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
+// Load OpenStreetMap tiles
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
 
-    // Add a marker
-    L.marker([24.8510, 89.3711]).addTo(map)
-      .bindPopup("<b>Bogura, Bangladesh</b><br>My Location.")
-      .openPopup();
-  </script>
+// Marker icon
+var selectedIcon = L.icon({
+  iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png',
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
+  popupAnchor: [0, -30]
+});
+
+var currentMarker = null;
+
+// Handle map click
+map.on('click', function(e) {
+  const lat = parseFloat(e.latlng.lat.toFixed(6));
+  const lon = parseFloat(e.latlng.lng.toFixed(6));
+
+  // Debugging (optional)
+  console.log("Lat:", lat, "Lon:", lon);
+
+  if (isNaN(lat) || isNaN(lon)) {
+    alert("Invalid coordinates. Please click again.");
+    return;
+  }
+
+  // Remove previous marker
+  if (currentMarker) {
+    map.removeLayer(currentMarker);
+  }
+
+  // Use encodeURIComponent for safety
+  const url = "https://nominatim.openstreetmap.org/reverse?format=json&lat=" + encodeURIComponent(lat) + "&lon=" + encodeURIComponent(lon) + "&zoom=18&addressdetails=1";
+
+  fetch(url, {
+    headers: {
+      'Accept': 'application/json'
+    }
+  })
+    .then(response => response.json())
+    .then(data => {
+      console.log("API response:", data);
+
+      let placeName = "Unknown Location";
+      if (data && data.display_name) {
+        placeName = data.display_name;
+      }
+
+      currentMarker = L.marker([lat, lon], { icon: selectedIcon })
+        .addTo(map)
+        .bindPopup("<b>" + placeName + "</b>")
+        .openPopup();
+    })
+    .catch(error => {
+      console.error("Error fetching location name:", error);
+      alert("Unable to get location name. Please try again later.");
+    });
+});
+</script>
 </body>
 </html>
